@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" class="re">
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+  <!-- ------blog page content----- -->
+   <section class="blog-content">
+
+   <div class="row"></div>
+   </class>
+   <div class="blog-left">
+    <img src="images/certificate.jpg">
+    <h2>Our Certificate & Online Programs For 2024</h2>
+    <h4>Higher Education Leadership & Administration Certificate</h4>
+        <p>Deepen your understanding of leadership and administration and prepare for career advancement in higher education in this CAEP-accredited online Higher Education Leadership & Administration Certificate program. Explore the history of higher education as well as diversity, assessment and evaluation, and legal and financial issues specific to academia. Coursework and projects are collaborative and applicable to real-world education leadership challenges.</p>
+        <h4>Principal Certificate</h4>
+        <p>Prepare to be a highly qualified, versatile, and culturally responsive educational leader with the online Principal Certificate program from Youngstown State University. You will be equipped with essential knowledge and advanced expertise in policy, administration, and management that lead you on the path toward principal licensure.<br>
+            This education certificate online program positions you to be a catalyst for change, growth, and success of students, teachers, and staff through leadership courses and clinical experience. The innovative curriculum is aligned with the National Educational Leadership Preparation (NELP) standards. The Principal Certificate program is an additional pathway to Ohio principal licensure for experienced teachers who already have a master's degree. Graduates will be academically prepared for the Ohio principal licensure exam.<br>
+        </p>
+        <h4>Superintendent Licensure</h4>
+        <p>The YSU online Superintendent Licensure program provides you with the rigorous leadership development you need to prepare for success as a district-level administrator. Through 100 percent online coursework and clinical experience, our dedicated faculty provide you with a practitioner-focused approach to best practices using active and collaborative learning strategies.<br>
+            Curriculum for this online program is aligned with the National Educational Leadership Preparation (NELP) and Ohio Standards for Superintendents (OSS) standards. Prepare to meet the challenges of today's school districts as a superintendent in as few as eight months.
+        </p>
+        <h4>Teacher Leader Endorsement</h4>
+        <p>Enhance the leadership and management systems of your school with the advanced qualifications you will gain in the Teacher Leader Endorsement online program. Designed for current teachers and support staff such as curriculum directors and counselors, this graduate-level program offers the added knowledge, skills, and overall understanding needed to incorporate successful leadership styles in classroom and school settings—in as few as 6 months.<br>
+            Learn from expert faculty who have extensive experience in the field of education, specifically in the area of teacher leadership. Gain real-world experience from the multiple field experience opportunities embedded in each course to advance your professional growth.<br>
+            By design, in earning the Teacher Leader Endorsement, you automatically fulfill one of the core requirements of the Lead Professional Educator License, the highest educational licensing credential a teacher can achieve in the state of Ohio. Upon completion of the endorsement program, you will be prepared for expanded educational roles and opportunities such as teacher leader, data coach and mentor.
+       </p>
+
+
+       <div class="comment-box">
+        <h3>Leave a Comment</h3>
+
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your Comment">
+            </textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+       </div>
+  
+   
+   <div class="blog-right">
+    <h3>Post Categories</h3>
+    <div>
+        <span>Business Analytics</span>
+        <span>15</span>
+        </div>
+          <div>
+           <span>Data Science</span>
+            <span>30</span>
+              </div>
+            <div>
+            <span>Machine Learning</span>
+            <span>37</span>
+            </div>
+        <div>
+        <span>Computer Science</span>
+        <span>15</span>
+        </div>
+    <div>
+               <span>Journalism</span>
+        <span>22</span>
+    </div>
+    <div>
+          <span>Commerce</span>
+        <span>40</span>
+    </div>
+    <div>
+          <span>Dental Hygiene</span>
+            <span>15</span>
+    </div>
+   </div>
+ </div>
+</section>
+ <!-- -----Footer--- -->
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <h5>Not Too Big, Not Too Small</h5>
+    <p>Just the right size school to move beyond the high school experience <br>without getting lost in the crowd.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+  </section>
+
+
+<!-- -------Javascriprt for Toggle Menu ------ -->
+<script>
+
+    var navlinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
